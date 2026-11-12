@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gifting & Bulk Orders | Dadi Pota Ladoo</title>
+<meta name="description" content="Shaadi, corporate gifting, party aur tyohaar ke liye Dadi Pota Ladoo ke bulk orders. WhatsApp par enquiry bhejein.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app-header"></div>
+
+<main>
+<section class="phero">
+  <div class="wrap">
+    <div class="crumb">HOME / GIFTING &amp; BULK</div>
+    <h1>Gifting &amp; Bulk Orders</h1>
+    <p>Har khushi ka meetha — shaadi, party, office gifting ya tyohaar.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow rv">Kis Mauke ke liye?</span>
+      <h2 class="sec-title rv">Har Occasion ke liye Ladoo</h2>
+    </div>
+    <div class="occ">
+      <div class="f rv"><div class="ico" data-ic="ring"></div><h4>Shaadi &amp; Functions</h4><p>Mehmaano ke liye shuddh desi ghee ke ladoo.</p></div>
+      <div class="f rv"><div class="ico" data-ic="briefcase"></div><h4>Corporate Gifting</h4><p>Employees aur clients ke liye sehatmand tohfa.</p></div>
+      <div class="f rv"><div class="ico" data-ic="gift"></div><h4>Tyohaar</h4><p>Har tyohaar par apno ke liye khaas gift box.</p></div>
+      <div class="f rv"><div class="ico" data-ic="cake"></div><h4>Party &amp; Birthday</h4><p>Chhoti-badi parties ke liye bulk quantity.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg2)">
+  <div class="wrap two">
+    <div class="rv l">
+      <span class="eyebrow">Enquiry</span>
+      <h2 class="sec-title">Apni zaroorat bataiye</h2>
+      <p class="sec-sub" style="margin-bottom:26px">Form bharein, WhatsApp par seedha humein message pahunch jayega. Hum aapko rate aur delivery ki jaankari bhejenge.</p>
+      <div class="cinfo">
+        <a class="ci-card" href="https://wa.me/919729908016" target="_blank" rel="noopener"><div class="ico" data-ic="msg"></div><div><h4>WhatsApp</h4><p>+91 97299 08016</p></div></a>
+        <a class="ci-card" href="tel:+919729908016"><div class="ico" data-ic="phone"></div><div><h4>Call Karein</h4><p>+91 97299 08016</p></div></a>
+      </div>
+    </div>
+    <form class="fbox rv r" id="bulkForm" novalidate>
+      <h3>Bulk Order Enquiry</h3>
+      <p>Sabhi * wale fields zaroori hain.</p>
+      <div class="row2">
+        <label class="f-l"><span>Naam *</span><input type="text" name="name" data-label="Naam" placeholder="Aapka naam"></label>
+        <label class="f-l"><span>Mobile *</span><input type="tel" class="digits" name="phone" data-label="Mobile" maxlength="10" inputmode="numeric" placeholder="10 digit number"></label>
+      </div>
+      <div class="row2">
+        <label class="f-l"><span>Occasion</span>
+          <select name="occasion" data-label="Occasion">
+            <option>Shaadi / Function</option><option>Corporate Gifting</option><option>Tyohaar</option><option>Party / Birthday</option><option>Anya</option>
+          </select></label>
+        <label class="f-l"><span>Approx. Quantity (kg)</span><input type="number" min="1" name="qty" data-label="Quantity (kg)" placeholder="Jaise: 10"></label>
+      </div>
+      <div class="row2">
+        <label class="f-l"><span>Pasandida Ladoo</span><input type="text" name="ladoo" data-label="Ladoo" placeholder="Jaise: Goond, Besan"></label>
+        <label class="f-l"><span>Shehar / Delivery Location</span><input type="text" name="city" data-label="Shehar" placeholder="Shehar ka naam"></label>
+      </div>
+      <label class="f-l"><span>Zaroorat ki Date</span><input type="date" name="date" data-label="Date"></label>
+      <label class="f-l"><span>Aur kuch batana hai?</span><textarea name="msg" data-label="Message" rows="3" placeholder="Packing, gift box ya koi aur zaroorat..."></textarea></label>
+      <p class="err"></p>
+      <button type="submit" class="btn wa block">Enquiry WhatsApp par Bhejein</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<div id="app-footer"></div>
+<script src="script.js"></script>
+</body>
+</html>
