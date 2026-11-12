@@ -240,7 +240,7 @@ document.addEventListener("click", e => {
     fly($(".stage .ball", card));
     toast(`${p.name} (${w}) cart mein add hua`);
     const cb = $("#cartBtn"); cb.classList.remove("bump"); void cb.offsetWidth; setTimeout(() => cb.classList.add("bump"), 700);
-    openCart();
+    window.scrollTo({ top: 0, behavior: "smooth" });
     return;
   }
   // cart item controls
